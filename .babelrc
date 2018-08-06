@@ -1,0 +1,16 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "chrome": "61.0",
+          "node": "8.9"
+        }
+      }
+    ],
+    "@babel/preset-flow",
+    "@babel/preset-react"
+  ],
+  "plugins": [["react-css-modules", {}]]
+}

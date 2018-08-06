@@ -1,0 +1,36 @@
+@charset 'UTF-8';
+
+@import "_var.css";
+
+.viewer {
+  align-items: stretch;
+  display: flex;
+  height: 100%;
+}
+
+.input {
+  flex: 0.5;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.input__body {
+  display: block;
+  font: 10.5pt monospace;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.output {
+  flex: 0.5;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.output > iframe {
+  position: absolute;
+  border: 0;
+  height: 100%;
+  width: 100%;
+}

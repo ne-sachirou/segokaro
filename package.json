@@ -1,0 +1,52 @@
+{
+  "name": "segokaro",
+  "version": "1.0.0",
+  "description": "segokáro: Viewer for font makers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "make start",
+    "test": "make test"
+  },
+  "build": {
+    "appId": "jp.c4se.segokaro"
+  },
+  "author": "ne_Sachirou <utakata.c4se@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "font-manager": "^0.3.0",
+    "immer": "^1.6.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-frame-component": "^4.0.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.0.0",
+    "@babel/core": "7.0.1",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "7.0.0",
+    "@babel/preset-flow": "7.0.0",
+    "@babel/preset-react": "7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-plugin-react-css-modules": "^3.4.2",
+    "electron": "^2.0.9",
+    "electron-builder": "^20.28.4",
+    "enzyme": "^3.6.0",
+    "flow-bin": "^0.81.0",
+    "jest": "^23.6.0",
+    "jest-css-modules": "^1.1.0",
+    "jest-enzyme": "^6.0.4",
+    "postcss-cli": "^6.0.0",
+    "postcss-import": "^12.0.0",
+    "spectron": "^4.0.0"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./setup_test_framework.js",
+    "testURL": "http://localhost/",
+    "transform": {
+      ".(css|js)": "./node_modules/jest-css-modules"
+    }
+  }
+}

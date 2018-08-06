@@ -1,0 +1,27 @@
+@charset 'UTF-8';
+
+@import "_var.css";
+
+.app {
+  align-items: stretch;
+  background: white;
+  display: flex;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "ヒラギノ角ゴ ProN W3",
+    "Hiragino Kaku Gothic ProN", Meiryo;
+  font-size: 10.5pt;
+  font-style: normal;
+  font-weight: 400;
+  height: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+.menuBar {
+  flex: 0 var(--menu-width);
+  height: 100%;
+}
+
+.main {
+  color: var(--vivaldi-black);
+  flex: 1;
+  height: 100%;
+}

@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+
+:root {
+  --menu-width: 72px;
+  --vivaldi-black: #3b3b3b;
+  --vivaldi-blue: #006ed7;
+  --vivaldi-red: #cd3437;
+  --vivaldi-white: #f6f6f6;
+}
+
+.src-components-___menu__menu___wk2Pg {
+  background: var(--vivaldi-white);
+}
+
+.src-components-___menu__menuItem___1EQ8C {
+  background: var(--vivaldi-red);
+  color: var(--vivaldi-white);
+  display: table-cell;
+  height: var(--menu-width);
+  text-align: center;
+  vertical-align: middle;
+  width: var(--menu-width);
+}

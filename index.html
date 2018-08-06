@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>segokáro: Viewer for font makers.</title>
+    <style>
+      html, body, #app {
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+      }
+    </style>
+    <script>
+      require.extensions[".css"] = (m, filename) => {
+        const link = document.createElement("link");
+        link.setAttribute("rel", "stylesheet");
+        link.setAttribute("href", filename);
+        document.head.appendChild(link);
+      };
+      require("./lib/app");
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
