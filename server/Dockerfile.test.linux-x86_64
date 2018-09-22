@@ -1,0 +1,2 @@
+FROM alpine:latest
+ADD bin/segokaro-linux-x86_64 /usr/local/bin/segokaro

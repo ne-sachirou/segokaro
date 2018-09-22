@@ -1,0 +1,7 @@
+{
+  "presets": [["@babel/preset-env", { "targets": "last 2 versions" }], "@babel/preset-flow", "@babel/preset-react"],
+  "plugins": [
+    "@babel/proposal-class-properties",
+    ["react-css-modules", { "generateScopedName": "[path]___[name]__[local]___[hash:base64:5]" }]
+  ]
+}

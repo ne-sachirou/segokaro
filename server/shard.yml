@@ -1,0 +1,19 @@
+name: segokaro
+version: 0.1.0
+
+authors:
+  - ne_Sachirou <utakata.c4se@gmail.com>
+
+targets:
+  segokaro:
+    main: src/segokaro.cr
+
+crystal: 0.26.1
+
+license: GPL-3.0-or-later
+
+dependencies:
+  libui:
+    github: fusion/libui.cr
+  kemal:
+    github: kemalcr/kemal
